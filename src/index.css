@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+header{
+    background: #f55a5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    color: white;
+}
