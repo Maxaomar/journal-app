@@ -1,6 +1,8 @@
 body{
     margin: 0;
+    padding: 0;
 }
+
 header{
     background: #f55a5a;
     display: flex;
@@ -44,6 +46,18 @@ header > h1{
 
 }
 
-.container{
-    margin-left: 10px;
+
+/* div with the class destination container */
+.destination{
+   display: flex;
+   align-items: center;
+}
+
+a, span{
+    font-size: 1.2rem;
+    margin: 4px;
+}
+
+.trip-dates{
+    font-size: 1.2rem;
 }
