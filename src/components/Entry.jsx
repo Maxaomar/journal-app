@@ -1,5 +1,7 @@
 export default function  Entry(props) {
     const timeOfDay = new Date()
+
+
     return (
         <article className="journal-entry">
             <div className="main-image-container">
