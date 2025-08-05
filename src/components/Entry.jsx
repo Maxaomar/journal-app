@@ -10,10 +10,10 @@ export default function  Entry(props) {
 
             <div className="container">
                  <div className="destination">
-                     <img src={props.markerimg} className="marker-image"/>
+                     <img src="src/images/marker.png" className="marker-image"/>
                       <span>{props.country}</span>
                       <a href={props.link}>View on Google</a>
-                  </div>
+             </div>
 
                 <h1>{props.title}</h1>
                 <p className="trip-dates">{props.dates}</p>
